@@ -88,7 +88,7 @@ const Add = ({url}) => {
                 </div>
                 <div className="add-price flex-col">
                 <p>Add Price</p>
-                <input onChange={onChangeHandeler} value={data.price} type="Number" name='price' placeholder='birr:20'/>
+                <input onChange={onChangeHandeler} value={data.price} type="Number" name='price' placeholder='birr:20000'/>
 
             </div>
             </div>
