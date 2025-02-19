@@ -11,7 +11,7 @@ const Add = ({url}) => {
     name: '',
     description: '',
     price: '',
-    category: 'salad',
+    category: 'Cow',
   });
 
   const onChangeHandeler = (event) => {
@@ -36,7 +36,7 @@ const Add = ({url}) => {
           name: '',
           description: '',
           price: '',
-          category: 'salad',
+          category: 'Cow',
         });
         setImage(false);
         toast.success(response.data.message);
@@ -82,6 +82,8 @@ const Add = ({url}) => {
                         <option value="Hens">Hens</option>
                         <option value="Donkes">Donkes</option>
                         <option value="Products">Products</option>
+                        <option value="Foods">Foods</option>
+                        
                         {/* <option value="Mana">Mana</option>
                         <option value="Elektroniksii">Elektroniksii</option> */}
                     </select>
