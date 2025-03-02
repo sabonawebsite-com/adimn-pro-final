@@ -48,7 +48,7 @@ else{
       <img src={`${url}/image/`+ item.image} alt="" />
       <p>{item.name}</p>
       <p>{item.category}</p>
-      <p>${item.price}</p>
+      <p>birr:{item.price}</p>
       <p onClick={()=>removedFood(item._id)} className='cursor'>❌</p>
 
     </div>
