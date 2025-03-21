@@ -79,10 +79,10 @@ const Add = ({url}) => {
                         <option value="Sheep">Sheep</option>
                         <option value="Goat">Goat</option>
                         <option value="Camel">Camel</option>
-                        <option value="Hens">Hens</option>
-                        <option value="Donkes">Donkes</option>
-                        <option value="Products">Products</option>
-                        <option value="Foods">Foods</option>
+                        <option value="Hen">Hen</option>
+                        <option value="Donkey">Donkey</option>
+                        <option value="Porduct">Porduct</option>
+                        <option value="Food">Food</option>
                         
                         {/* <option value="Mana">Mana</option>
                         <option value="Elektroniksii">Elektroniksii</option> */}
